@@ -6,6 +6,28 @@ BBC Micro:Bit Code samples
 * [Micro:Bit boards and peripherals at Microcenter](http://www.microcenter.com/search/search_results.aspx?Ntt=micro%3Abit)
 * [Micro:Bit boards and peripherals at Spark Fun](https://www.sparkfun.com/search/results?term=micro%3Abit)
 
+### micro:bit hardware ###
+
+* 32 bit ARM Cortex M0 CPU 16Mhz (Nordic Semiconductor nRF51822)
+* 16KB RAM
+* 25 individually programable LEDs that can be used as light sensors
+* Radio with two modes, only on available at a time
+    * Bluetooth Low Energy
+    * Radio 2.4Ghz for direct [micro:bit to micro:bit communication](https://lancaster-university.github.io/microbit-docs/ubit/radio/) 1Mbps 32bit-1024bit packet
+* Micro USB connector for programming and communication
+* JST Battery Connector
+* 2 programmable buttons
+* accelerometer
+* compass
+* temperature sensor 
+* 20 pin connector
+    * power / groiund and 3 digital/analog connector rings
+
+### Programming Tools ###
+
+* [Browser based development environment](https://makecode.microbit.org/)
+* [iOS and Android app](http://microbit.org/guide/mobile/) development environment
+
 ## Programs in this repository ##
 ### Dice-With-Dots:  ###
 I made this program so we could have a set of dice while playing the travel version of _Settlers of Catan_ 
